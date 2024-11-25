@@ -1,0 +1,44 @@
+-- Notes : All Installation Paths 
+
+Github : https://github.com/
+Create profile 
+
+Install : 
+VS Code :
+https://code.visualstudio.com/download
+
+Login using github profile (for convinience)
+
+Install GIT on laptop : (64 bit)
+https://git-scm.com/downloads/win
+
+
+Check out this video
+VS code + Github
+https://www.youtube.com/watch?v=i_23KUAEtUM
+
+Perform above setup.
+
+----------------------------------------------
+Install Postgres GUI 
+
+https://www.pgadmin.org/download/pgadmin-4-windows/
+
+--------------------------------------------- 
+Install Docker 
+
+https://docs.docker.com/desktop/setup/install/windows-install/
+Docker for Windows - x86_64
+
+Install Postgres on Docker, follow steps 
+https://chatgpt.com/share/67439709-858c-8011-9711-89f1eb175654
+
+Imp commands : 
+docker pull postgres
+
+#Replace myuser, mypassword as per your preference
+docker run --name my_postgres -e POSTGRES_USER=myuser -e POSTGRES_PASSWORD=mypassword -e POSTGRES_DB=mydatabase -p 5432:5432 -d postgres
+
+------------------------------
+Once Container is running , try to login Postgres using PGADMIN UI 
+
